@@ -1,0 +1,8 @@
+{
+  "name": "text-to-speech-extension",
+  "version": "1.0.0",
+  "description": "A browser extension that converts selected text to speech",
+  "scripts": {
+    "generate-icons": "node create_icons.js"
+  }
+} 

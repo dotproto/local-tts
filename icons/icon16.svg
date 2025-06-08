@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="8" cy="8" r="8" fill="#4285f4"/>
+  <g fill="white">
+    <!-- Speaker body -->
+    <path d="M4.8 3.2 h1.92 v9.6 h-1.92 z"/>
+    <!-- Speaker cone -->
+    <path d="M6.72 3.2 h4.48 v9.6 h-4.48 z"/>
+  </g>
+  <!-- Sound waves -->
+  <g stroke="white" stroke-width="0.8" fill="none">
+    <path d="M11.2 8 A2.4 2.4 0 0 1 11.2 8 A2.4 2.4 0 0 0 11.2 8"/>
+    <path d="M11.2 8 A4.8 4.8 0 0 1 11.2 8 A4.8 4.8 0 0 0 11.2 8"/>
+  </g>
+</svg>
