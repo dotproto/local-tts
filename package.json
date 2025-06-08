@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "A browser extension that converts selected text to speech",
   "scripts": {
-    "generate-icons": "node create_icons.js"
+    "generate-icons": "node create_icons.js",
+    "clean": "rimraf dist",
+    "test": "node --experimental-test-module-mocks --test",
+    "test:watch": "node --experimental-test-module-mocks --test --watch"
+  },
+  "dependencies": {
+    "rimraf": "^6.0.1"
   }
-} 
+}
